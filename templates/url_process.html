@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content">
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <p class="sub-title">Enter The url of Your Youtube Video.</p>
+        <form action="/process_url" method="post">
+            <input type="text" name="url" placeholder="https://youtu.be/0zi-CG_iB6w?si=GXJCfEdc00sUOXHQ">
+            <br>
+            <input type="submit" value="Generate Summary">
+        </form>
+    </div>
+</div>
+
+
+{% endblock content %}

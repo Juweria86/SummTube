@@ -1,0 +1,101 @@
+body {
+    background-color: #3e4261;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+.navbar {
+    background-color: #3e4261 !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+
+
+.jumbotron {
+    background-color: #3e4261;
+    color: #ffffff;
+    padding: 100px 0;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+label{
+    font-family: italic;
+}
+
+.title {
+    color: #ffca2c;
+}
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #ffca2c;
+    border-color: #ffc107;
+    color:black;
+}
+
+.btn-primary:hover {
+    background-color: #ffca2c;
+    border-color: #ffca2c;
+}
+
+.footer {
+    background-color: #898baf;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.container {
+    text-align: center;
+}
+.sub-title{
+    color:#fff;
+    margin-right: 100px;
+}
+input[type="text"] {
+    width: 600px;
+    
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    border: none;
+    border-bottom: 3px solid #fff; /* Underline border */
+    font-size: 20px;
+    background-color: #3e4261;
+    color: #fff;
+    outline: none; /* Remove default focus outline */
+}
+
+input[type="text"]:focus {
+    border-color: #fff; /* Change border color on focus */
+}
+
+input[type="submit"] {
+    background-color: #ffca2c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 530px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
